@@ -51,6 +51,7 @@ h1 {
     padding: 10px 30px;
     font-weight: 300;
     border-radius: 200px;
+    transition: background-color
 }
 
 .btn:hover,
@@ -63,6 +64,7 @@ h1 {
     background-color: #e67e22;
     border: 1 px solid #e67e22;
     color: #fff;
+    margin-right: 15px;
 }
 
 .btn-ghost, 
@@ -79,5 +81,5 @@ h1 {
 .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid #e67e22;
-    color: #e67e22;
+    color: #fff;
 }
