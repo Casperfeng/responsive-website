@@ -192,9 +192,28 @@ h2:after {
 /* ----------------------------------------------- */
 /* ICONS
 /* ----------------------------------------------- */
-.icon-big {
-    font-size: 400%;
+
+ion-icon {
+    font-size: 350%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+}
+
+/* ----------------------------------------------- */
+/* MEALS
+/* ----------------------------------------------- */
+
+.meals.showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+}
+
+.meal.photo {
+    width: 100%;
+    margin: 0;
 }
